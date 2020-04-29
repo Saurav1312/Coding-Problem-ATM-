@@ -11,7 +11,7 @@ function atm(){
     }
     
     else{
-        if ( b< 0 || b> 2000){
+        if ( b< 0 || b>= 2000){
             document.getElementById("balance").innerHTML=  "Total Amount should be more than 0 and less than 2001" ;
           document.getElementById("transaction").innerHTML= "Unsuccesfull Transaction!!";
         }
